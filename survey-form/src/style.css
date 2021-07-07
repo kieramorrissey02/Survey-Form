@@ -1,0 +1,117 @@
+#title {
+  font-family:verdana;
+  text-align:center;
+}
+
+#description {
+  font-family:verdana;
+  text-align:center;
+}
+
+h4 {
+  font-family:verdana;
+  margin-left:20px;
+}
+
+#survey-form {
+  height:1150px;
+  width:500px;
+  background:linear-gradient(45deg, lightblue, lightpink);
+  margin:auto;
+  border-radius:10px;
+}
+
+#name-label {
+  margin-left:20px;
+  border-radius:3px;
+  border-width:1px;
+  font-family:verdana;
+ 
+}
+
+.label {
+  color:black;
+}
+
+.input-field {
+ padding:10px;
+ margin:0px 0px 0px 20px;
+}
+#name {
+  
+}
+
+#email-label {
+  margin-left:20px;
+  border-radius:3px;
+  border-width:1px;
+  font-family:verdana;
+}
+
+#email {
+  
+}
+#number-label {
+  margin-left:20px;
+  border-radius:3px;
+  border-width:1px;
+  font-family:verdana;
+}
+
+#number {
+  
+}
+#dropdown {
+  margin-left:20px;
+  border-radius:3px;
+  border-width:1px;
+  font-family:verdana;
+}
+
+#weekly {
+  margin-left:20px;
+ 
+}
+
+#bi_weekly {
+  margin-left:20px;
+}
+
+#monthly {
+  margin-left:20px;
+}
+
+#news {
+  margin-left:20px;
+}
+
+#fashion {
+  margin-left:20px;
+}
+
+#beauty {
+  margin-left:20px;
+}
+
+#food_and_culture {
+  margin-left:20px;
+}
+
+#arts_and_lifestyle {
+  margin-left:20px;
+}
+
+#text-box {
+  margin-left:20px;
+  font-family:verdana;
+  border-radius:3px;
+  border-width:1px;
+}
+#submit {
+  margin-left:20px;
+  padding: 10px 20px 10px 20px;
+  font-family:verdana;
+  color:mediumblue;
+  border-color:cornflowerblue;
+  width:424px;
+}

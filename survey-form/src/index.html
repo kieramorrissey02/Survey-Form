@@ -1,0 +1,52 @@
+<body style="background-color:peachpuff;">
+<h1 id="title">Stay in the know!</h1>
+<p id="description"><i>Sign up here to get the latest news, updates and special offer's delivered to your inbox.</i></p>
+<form id="survey-form">
+  <label class="label" for="name" id="name-label"><h4>Name</h4>
+<input id="name" class="input-field" name="name" type="text" placeholder="Enter your name" required>
+</label><br>
+  <label class="label" for="email" id="email-label"><h4>Email Address</h4>
+<input id="email" class="input-field" name="email" type="email" placeholder="Enter your email address" required>
+</label><br>
+  <label class="label" for="number" id="number-label"><h4>Age</h4>
+<input id="number" class="input-field" name="number" type="number" min="18" max="90" placeholder="Enter your age" style="width:140px;" required>
+</label><br><br>
+<h4>What country do you live in?</h4>
+<label for="country"></label>
+<select name="country" id="dropdown">
+<option value="Ireland">Ireland</option>
+<option value="United Kingdom">United Kingdom</option>
+<option value="France">France</option><option value="Italy">Italy</option>
+<option value="Germany">Germany</option>
+</select><br><br>
+<h4>How often do you want to receive updates?</h4>
+<label style="font-family:verdana;" for="weekly">
+  <input id="weekly" type="radio" value="weekly" name="period">Weekly
+</label><br><br>
+<label style="font-family:verdana;"  for="bi_weekly">
+<input id="bi_weekly" type="radio" value="bi_weekly" name="period">Bi-Weekly
+</label><br><br>
+<label style="font-family:verdana;"  for="monthly">
+<input id="monthly" type="radio" value="monthly" name="period">Monthly
+</label><br><br>
+<h4>What would you like to receive the latest updates on?</h4>
+<label style="font-family:verdana;"  for="news">
+<input id="news" type="checkbox" value="news" name="news">News
+</label><br><br>
+<label style="font-family:verdana;"  for="fashion">
+<input id="fashion" type="checkbox" value="fashion" name="fashion">Fashion
+</label><br><br>
+<label style="font-family:verdana;"  for="beauty">
+<input id="beauty" type="checkbox" value="beauty" name="beauty">Beauty
+</label><br><br>
+<label style="font-family:verdana;"  for="food_and_culture">
+<input id="food_and_culture" type="checkbox" value="food_and_culture" name="food_and_culture">Food and Culture
+</label><br><br>
+<label style="font-family:verdana;" for="arts_and_lifestyle">
+<input id="arts_and_lifestyle" type="checkbox" value="arts_and_lifestyle" name="arts_and_lifestyle">Arts and Lifestyle
+</label><br><br>
+<h4>Any comments or suggestions?</h4>
+<textarea id="text-box" rows="4" cols="50" form="survey-form">Enter text here. . .</textarea><br><br>
+<button id="submit" type="submit">Submit</submit>
+</form>
+</body>
